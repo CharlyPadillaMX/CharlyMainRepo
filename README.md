@@ -3,7 +3,12 @@
 
 - 🌱 I’m currently learning **Angular, ASP.NET Code, Bootstrap, MVC**
 
-- 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/josé-carlos-padilla-ruiz-esparza/](https://www.linkedin.com/in/josé-carlos-padilla-ruiz-esparza/)
+- 👨‍💻 All of my professional projects are available at [https://www.linkedin.com/in/josé-carlos-padilla-ruiz-esparza/](https://www.linkedin.com/in/josé-carlos-padilla-ruiz-esparza/)
+
+- My test projects:
+    <ul>
+        <li>BethanysPieShop is project from ASP.NET Code Pluralsight course</li>
+    </ul>
 
 - 💬 Ask me about **ASP.NET, C#, JavaScript, jQuery, PL/SQL on SQL Server and Oracle, LINQ, PowerShell**
 
