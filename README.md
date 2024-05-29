@@ -7,7 +7,8 @@
 
 - My test projects:
     <ul>
-        <li>BethanysPieShop is project from ASP.NET Code Pluralsight course</li>
+        <li>BethanysPieShop is project from ASP.NET Core Fundamentals Pluralsight course</li>
+        <li>CityInfo is project from ASP.NET Core Web API Fundamentals Pluralsight course</li>
     </ul>
 
 - 💬 Ask me about **ASP.NET, C#, JavaScript, jQuery, PL/SQL on SQL Server and Oracle, LINQ, PowerShell**
