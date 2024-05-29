@@ -3,7 +3,9 @@
 
 - 🌱 I’m currently learning **Angular, ASP.NET Code, Bootstrap, MVC**
 
-- 💬 Ask me about **ASP.NET, C#, JavaScript, jQuery**
+- 👨‍💻 All of my projects are available at [https://www.linkedin.com/in/josé-carlos-padilla-ruiz-esparza/](https://www.linkedin.com/in/josé-carlos-padilla-ruiz-esparza/)
+
+- 💬 Ask me about **ASP.NET, C#, JavaScript, jQuery, PL/SQL on SQL Server and Oracle, LINQ, PowerShell**
 
 - 📫 How to reach me **carlos_padill1@hotmail.com**
 
