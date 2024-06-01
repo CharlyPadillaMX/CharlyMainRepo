@@ -1,24 +1,23 @@
-/*Scroll to top when arrow up clicked BEGIN*/
-$(window).scroll(function() {
-    var height = $(window).scrollTop();
-    if (height > 1800) {
-        $('#back2Top').fadeIn();
-    } else {
-        $('#back2Top').fadeOut();
-    }
-});
 $(document).ready(function() {
-    $("#back2Top").click(function(event) {
-        event.preventDefault();
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
+
+    var s_round = '.s_round';
+  
+    $(s_round).hover(function() {
+      $('.b_round').toggleClass('b_round_hover');
+      return false;
     });
-
-});
- /*Scroll to top when arrow up clicked END*/
-
- function scrollTo(hash){
-    location.hash = "#" + hash;
- }
-
- 
+  
+    $(s_round).click(function() {
+      $('.flip_box').toggleClass('flipped');
+      $(this).addClass('s_round_click');
+      $('.s_arrow').toggleClass('s_arrow_rotate');
+      $('.b_round').toggleClass('b_round_back_hover');
+      return false;
+    });
+  
+    $(s_round).on('transitionend', function() {
+      $(this).removeClass('s_round_click');
+      $(this).addClass('s_round_back');
+      return false;
+    });
+  });
