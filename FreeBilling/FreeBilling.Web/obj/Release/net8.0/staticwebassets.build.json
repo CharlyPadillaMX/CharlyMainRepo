@@ -1,0 +1,39 @@
+{
+  "Version": 1,
+  "Hash": "QTSXr/hGUKromMXS+xf7ue+J9Mtnl1HOKJg/9l9SMoI=",
+  "Source": "FreeBilling.Web",
+  "BasePath": "_content/FreeBilling.Web",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "FreeBilling.Web\\wwwroot",
+      "Source": "FreeBilling.Web",
+      "ContentRoot": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\",
+      "BasePath": "_content/FreeBilling.Web",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\index.html",
+      "SourceId": "FreeBilling.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\",
+      "BasePath": "_content/FreeBilling.Web",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ]
+}

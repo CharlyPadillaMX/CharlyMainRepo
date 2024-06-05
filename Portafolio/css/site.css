@@ -1,0 +1,325 @@
+@charset "UTF-8";
+
+:root {
+    --bs-gray-dark: #343a40;
+    --bs-gray-100: #f8f9fa;
+    --bs-gray-200: #e9ecef;
+    --bs-gray-300: #dee2e6;
+    --bs-gray-400: #ced4da;
+    --bs-gray-500: #adb5bd;
+    --bs-gray-600: #6c757d;
+    --bs-gray-700: #495057;
+    --bs-gray-800: #343a40;
+    --bs-gray-900: #212529;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-body-font-family: var(--bs-font-sans-serif);
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-bg: #525252;
+}
+
+nav {
+    content: '';
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 960px;
+    position: relative;
+    border: 2px solid #7c7d81;
+    border-bottom-style: none;
+    border-radius: 2rem 2rem 0rem 0rem;
+    background-color: var(--bs-gray-400);
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: -6%;
+    margin-left: 15%;
+}
+
+.menu {
+    display: inline-block !important;
+    color: var(--bs-gray-500);
+}
+
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-gray-700);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+hr{
+    height: 2px;
+    background-color: var(--bs-gray-500);
+    border-color: var(--bs-gray-500);
+}
+
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+h1, .h1 {
+    font-size: calc(1.375rem + 1.5vw);
+}
+
+@media (min-width: 1200px) {
+    h1, .h1 {
+        font-size: 2.5rem;
+    }
+}
+
+h2, .h2 {
+    font-size: calc(1.325rem + 0.9vw);
+}
+
+@media (min-width: 1200px) {
+    h2, .h2 {
+        font-size: 2rem;
+    }
+}
+
+h3, .h3 {
+    font-size: calc(1.3rem + 0.6vw);
+}
+
+@media (min-width: 1200px) {
+    h3, .h3 {
+        font-size: 1.75rem;
+    }
+}
+
+h4, .h4 {
+    font-size: calc(1.275rem + 0.3vw);
+}
+
+@media (min-width: 1200px) {
+    h4, .h4 {
+        font-size: 1.5rem;
+    }
+}
+
+h5, .h5 {
+    font-size: 1.25rem;
+}
+
+h6, .h6 {
+    font-size: 1rem;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    background-color: var(--bs-gray-300);
+    border-radius: 15px;
+    padding: 1rem;
+}
+
+span {
+    display: block !important;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--bs-gray-700);
+    overflow: hidden;
+}
+
+a:hover {
+    background-color: var(--bs-gray-600);
+    color: var(--bs-gray-300);
+}
+
+svg {
+    max-height: 30px;
+    padding-right: 15px;
+}
+
+.table {
+    --bs-table-bg: transparent;
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: #36302C;
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: #36302C;
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: #36302C;
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #36302C;
+    vertical-align: top;
+    border-color: #dee2e6;
+}
+
+    .table > :not(caption) > * > * {
+        padding: 0.5rem 0.5rem;
+        background-color: var(--bs-table-bg);
+        border-bottom-width: 1px;
+        box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+    }
+
+    .table > tbody {
+        vertical-align: inherit;
+    }
+
+    .table > thead {
+        vertical-align: bottom;
+    }
+
+    .table > :not(:first-child) {
+        border-top: 2px solid currentColor;
+    }
+
+thead,
+tbody,
+tfoot,
+tr,
+td,
+th {
+    border-color: inherit;
+    border-style: solid;
+    border-width: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #E5E5E5;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 80%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline-block;
+    margin-right: 10px;
+} 
+
+li::before {
+    content: "\06de";
+    font-family: "Segoe UI";
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.contacto {
+    background-color: black !important;
+}
+
+#test {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    -webkit-animation: fading 5s infinite;
+    animation: fading 5s infinite;
+}
+
+/* Here is the animation (keyframes) */
+@keyframes fading {
+    0% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.div-container{
+    content: '';
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 960px;
+    max-height: 80vh;
+    max-height: inherit;
+    position: relative;
+    border: 2px solid #7c7d81;
+    border-top-style: none;
+    border-radius: 0rem 0rem 2rem 2rem;
+    background-color: var(--bs-gray-400);
+    padding: 20px;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.top {
+    --offset: 50px; 
+    
+    position: sticky;
+    bottom: 20px;      
+    margin-left:90%; 
+    place-self: end;
+    margin-top: calc(100vh + var(--offset));
+    
+    /* visual styling */
+    text-decoration: none;
+    padding: 10px;
+    font-family: sans-serif;
+    color: #fff;
+    background: #000;
+    border-radius: 100px;
+    white-space: nowrap;
+  }
+
+  div a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+  /* INICIO FLIP-CONTAINER */
+  .front, .back {
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .container {
+    -moz-transform: perspective(1200px);
+    -webkit-perspective: 1200px;
+    perspective: 1200px;
+  }
+
+  .s_round_click {
+    transform: scale(1.7);
+  }
+
+  .flip_box {
+    transition: all 0.5s ease-out;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+  }
+
+  .back {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+
+  .flipped {
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+  }
+
+
+  /* FIN FLIP-CONTAINER */
