@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 302,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,6 +33,14 @@
               "Name": "ST:1449176975:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Contact.cshtml.cs",
@@ -40,7 +48,7 @@
               "RelativeDocumentMoniker": "FreeBilling.Web\\Pages\\Contact.cshtml.cs",
               "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Pages\\Contact.cshtml.cs",
               "RelativeToolTip": "FreeBilling.Web\\Pages\\Contact.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAoAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-05T19:35:41.171Z",
               "EditorCaption": ""
