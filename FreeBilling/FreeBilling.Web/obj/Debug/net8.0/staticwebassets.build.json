@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QTSXr/hGUKromMXS+xf7ue+J9Mtnl1HOKJg/9l9SMoI=",
+  "Hash": "EE57H48QOhbVpTUG6yrHGexQo7lBm+pIafmNRPsQePk=",
   "Source": "FreeBilling.Web",
   "BasePath": "_content/FreeBilling.Web",
   "Mode": "Default",
@@ -34,6 +34,44 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\site.css",
+      "SourceId": "FreeBilling.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\",
+      "BasePath": "_content/FreeBilling.Web",
+      "RelativePath": "site.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.css"
+    },
+    {
+      "Identity": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\site.src.css",
+      "SourceId": "FreeBilling.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\",
+      "BasePath": "_content/FreeBilling.Web",
+      "RelativePath": "site.src.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\site.src.css"
     }
   ]
 }

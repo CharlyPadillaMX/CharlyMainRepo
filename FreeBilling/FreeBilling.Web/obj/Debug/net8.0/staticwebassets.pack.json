@@ -5,6 +5,14 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\site.css",
+      "PackagePath": "staticwebassets\\site.css"
+    },
+    {
+      "Id": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\site.src.css",
+      "PackagePath": "staticwebassets\\site.src.css"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.FreeBilling.Web.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
