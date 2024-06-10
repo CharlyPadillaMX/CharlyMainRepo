@@ -3,24 +3,32 @@
   "WorkspaceRootPath": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\api.rest||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
-      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\api.rest||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\data\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\data\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\data\\billingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\data\\billingcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\data\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\data\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\pages\\contact.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\api.rest||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\api.rest||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\controllers\\customerscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,8 +38,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 302,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BillingContext.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\BillingContext.cs",
+              "RelativeDocumentMoniker": "FreeBilling.Web\\Data\\BillingContext.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\BillingContext.cs",
+              "RelativeToolTip": "FreeBilling.Web\\Data\\BillingContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:48:55.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Contact.cshtml.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Pages\\Contact.cshtml.cs",
+              "RelativeDocumentMoniker": "FreeBilling.Web\\Pages\\Contact.cshtml.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Pages\\Contact.cshtml.cs",
+              "RelativeToolTip": "FreeBilling.Web\\Pages\\Contact.cshtml.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:29:55.65Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
@@ -50,20 +84,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "api.rest",
               "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\api.rest",
               "RelativeDocumentMoniker": "FreeBilling.Web\\api.rest",
               "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\api.rest",
               "RelativeToolTip": "FreeBilling.Web\\api.rest",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAqAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAA+wAQAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
               "WhenOpened": "2024-06-06T23:36:46.793Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "CustomersController.cs",
               "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Controllers\\CustomersController.cs",
               "RelativeDocumentMoniker": "FreeBilling.Web\\Controllers\\CustomersController.cs",
@@ -71,12 +105,11 @@
               "RelativeToolTip": "FreeBilling.Web\\Controllers\\CustomersController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-06T23:31:38.588Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-06T23:31:38.588Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "IBillingRepository.cs",
               "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\IBillingRepository.cs",
               "RelativeDocumentMoniker": "FreeBilling.Web\\Data\\IBillingRepository.cs",
@@ -89,13 +122,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "BillingRepository.cs",
               "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\BillingRepository.cs",
               "RelativeDocumentMoniker": "FreeBilling.Web\\Data\\BillingRepository.cs",
               "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\BillingRepository.cs",
               "RelativeToolTip": "FreeBilling.Web\\Data\\BillingRepository.cs",
-              "ViewState": "AQIAADIAAAAAAAAAAAAAADAAAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T23:40:08.712Z",
               "EditorCaption": ""
@@ -108,7 +141,7 @@
               "RelativeDocumentMoniker": "FreeBilling.Web\\Program.cs",
               "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Program.cs",
               "RelativeToolTip": "FreeBilling.Web\\Program.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACkAAAAVAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-06T23:34:55.948Z",
               "EditorCaption": ""

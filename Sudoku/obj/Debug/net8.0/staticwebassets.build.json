@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "FRf6pe4GxoOFPZ2yn43Mku5YhXxwfsmo1tRdSQFyOy0=",
+  "Source": "Sudoku",
+  "BasePath": "_content/Sudoku",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Sudoku\\wwwroot",
+      "Source": "Sudoku",
+      "ContentRoot": "D:\\Repo\\CharlyMainRepo\\Sudoku\\wwwroot\\",
+      "BasePath": "_content/Sudoku",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

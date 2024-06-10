@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Repo\\CharlyMainRepo\\Sudoku\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|d:\\repo\\charlymainrepo\\sudoku\\models\\sudokugenerator\\construyesudoku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|solutionrelative:models\\sudokugenerator\\construyesudoku.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|d:\\repo\\charlymainrepo\\sudoku\\models\\sudokurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|solutionrelative:models\\sudokurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|d:\\repo\\charlymainrepo\\sudoku\\models\\isudokurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|solutionrelative:models\\isudokurepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|d:\\repo\\charlymainrepo\\sudoku\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|d:\\repo\\charlymainrepo\\sudoku\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|d:\\repo\\charlymainrepo\\sudoku\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E94665DC-C008-4990-AB06-B2DE85DCDECB}|Sudoku.csproj|solutionrelative:pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 302,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1449176975:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SudokuRepository.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Models\\SudokuRepository.cs",
+              "RelativeDocumentMoniker": "Models\\SudokuRepository.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Models\\SudokuRepository.cs",
+              "RelativeToolTip": "Models\\SudokuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:46:02.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ISudokuRepository.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Models\\ISudokuRepository.cs",
+              "RelativeDocumentMoniker": "Models\\ISudokuRepository.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Models\\ISudokuRepository.cs",
+              "RelativeToolTip": "Models\\ISudokuRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:41:37.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "index.cshtml.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Pages\\index.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\index.cshtml.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Pages\\index.cshtml.cs",
+              "RelativeToolTip": "Pages\\index.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:31:04.159Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "index.cshtml",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Pages\\index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\index.cshtml",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Pages\\index.cshtml",
+              "RelativeToolTip": "Pages\\index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-08T21:51:45.236Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T22:05:19.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConstruyeSudoku.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Models\\SudokuGenerator\\ConstruyeSudoku.cs",
+              "RelativeDocumentMoniker": "Models\\SudokuGenerator\\ConstruyeSudoku.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\Sudoku\\Models\\SudokuGenerator\\ConstruyeSudoku.cs",
+              "RelativeToolTip": "Models\\SudokuGenerator\\ConstruyeSudoku.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAAAFkAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T21:22:13.806Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

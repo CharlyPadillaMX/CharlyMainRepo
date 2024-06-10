@@ -10,6 +10,7 @@
         <li>BethanysPieShop is project from "ASP.NET Core Fundamentals" Pluralsight course</li>
         <li>CityInfo is project from "ASP.NET Core Web API Fundamentals" Pluralsight course</li>
         <li>FreeBilling is project from "Building a Web App with ASP.NET Core, MVC, Entity Framework, TailwindCSS, and Vue" Pluralsight course</li>
+        <li>Sudoku is a personal project for practice my new knowedge on ASP.NET Core</li>
         <li>Portafolio is my personal project for my portafolio</li>
     </ul>
 
