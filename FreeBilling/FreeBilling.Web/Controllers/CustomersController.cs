@@ -1,9 +1,13 @@
 ﻿using FreeBilling.Data.Entities;
 using FreeBilling.Web.Data;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
 namespace FreeBilling.Web.Controllers
 {
+    [Authorize("api")]
     [Route("/api/[controller]")]
     public class CustomersController : ControllerBase
     {
@@ -17,9 +21,19 @@ namespace FreeBilling.Web.Controllers
         }
 
         [HttpGet("")]
-        public async Task<IEnumerable<Customer>> Get()
+        public async Task<ActionResult<IEnumerable<Customer>>> Get(bool withAddresses = false)
         {
-            return await _billingRepository.GetCustomersAsync();
+            try
+            {
+                IEnumerable<Customer> results = withAddresses ? await _billingRepository.GetCustomersWithAddressesAsync() : await _billingRepository.GetCustomersAsync();
+
+                return Ok(results);
+            }
+            catch (Exception)
+            {
+                _logger.LogError("Failed to get customers from database");
+                return Problem("Failed to get customers from database");
+            }
         }
 
         [HttpGet("{id:int}")]
@@ -40,7 +54,7 @@ namespace FreeBilling.Web.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogError("Exception thrown while reading customer")
+                _logger.LogError("Exception thrown while reading customer");
                 return Problem($"Exception thrown: {ex.Message}");
             }
         }

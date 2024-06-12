@@ -1,4 +1,9 @@
+using Sudoku.Models;
+using Sudoku.Models.SudokuGenerator;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<ISudokuRepository, SudokuRepository>();
 
 builder.Services.AddRazorPages();
 

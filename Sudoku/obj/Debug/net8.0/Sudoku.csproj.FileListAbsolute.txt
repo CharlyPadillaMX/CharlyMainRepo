@@ -11,6 +11,8 @@ D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.AssemblyInfoInputs.cache
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.AssemblyInfo.cs
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.csproj.CoreCompileInputs.cache
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.MvcApplicationPartsAssemblyInfo.cache
+D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.RazorAssemblyInfo.cache
+D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.RazorAssemblyInfo.cs
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.sourcelink.json
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\staticwebassets.build.json
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\staticwebassets.development.json
@@ -25,5 +27,3 @@ D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\refint\Sudoku.dll
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.pdb
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.genruntimeconfig.cache
 D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\ref\Sudoku.dll
-D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.RazorAssemblyInfo.cache
-D:\Repo\CharlyMainRepo\Sudoku\obj\Debug\net8.0\Sudoku.RazorAssemblyInfo.cs

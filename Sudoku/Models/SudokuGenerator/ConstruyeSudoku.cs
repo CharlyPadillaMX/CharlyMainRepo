@@ -100,9 +100,54 @@ namespace Sudoku.Models.SudokuGenerator
                 }
                 else
                 {
-                    int celdaCount = 0;
-                    //Validar fila
-                    
+                    int celdaCount = _tablero.Count + 1;
+
+                    //Valida las celdas que pertenecen a la columna del nuevo numero
+                    for (int c = 0; c < 3; c++)
+                    {
+                        var celda = _tablero[celdaCount - 3];
+
+                        for (int i = 0; i < 3; i++)
+                        {
+                            if (celda[i, _columna] == numeroCelda)
+                                return false;
+                        }
+                    }
+
+                    if (celdaCount > 4 && celdaCount <= 6)
+                    {
+                        for (int i = 3; i <= 5; i++)
+                        {
+                            if (i > _tablero.Count) return true;
+                            var celda = _tablero[i];
+
+                            for (int j = 0; j < 3; j++)
+                            {
+                                if (celda[_fila, j] == numeroCelda)
+                                    return false;
+                            }
+                        }
+
+                        valida = true;
+                    }
+                    else if (celdaCount > 7 && celdaCount <= 9)
+                    {
+                        for (int i = 7; i <= 9; i++)
+                        {
+                            if (i > _tablero.Count) return true;
+                            var celda = _tablero[i];
+
+                            for (int j = 0; j < 3; j++)
+                            {
+                                if (celda[_fila, j] == numeroCelda)
+                                    return false;
+                            }
+                        }
+
+                        valida = true;
+                    }
+                    else
+                        valida = true;
                 }
             }
 
@@ -124,7 +169,8 @@ namespace Sudoku.Models.SudokuGenerator
                         do
                         {
                             _num = _rn.Next(1, 9);
-                        } while (ValidaNumeroCelda(_num, _numAdd));
+                            if (!ValidaNumeroCelda(_num, _numAdd)) continue;
+                        } while (ValidaFilasColumas(_num, i, j));
 
                         _celda[i, j] = _num;
                     }
@@ -148,8 +194,8 @@ namespace Sudoku.Models.SudokuGenerator
 
             for (int i = 0; i < 9; i++)
             {
-                Celda = new int[3, 3];
-
+                Celda = LlenaCelda(new int[3, 3]);
+                _tablero.Add(Celda);
             }
 
             return _sb.ToString();

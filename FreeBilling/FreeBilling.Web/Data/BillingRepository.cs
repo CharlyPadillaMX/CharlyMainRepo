@@ -75,5 +75,63 @@ namespace FreeBilling.Web.Data
                 throw;
             }
         }
+
+        public async Task<IEnumerable<Customer>> GetCustomersWithAddressesAsync()
+        {
+            try
+            {
+                return await _context.Customers
+                        .Include(c => c.Address)
+                        .OrderBy(c => c.CompanyName)
+                        .ToListAsync();
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError($"Could not get Customers: {ex.Message}");
+                throw;
+            }
+        }
+
+        public async Task<TimeBill?> GetTimeBill(int id)
+        {
+            var bill = await _context.TimeBills
+                .Include(b => b.Employee)
+                .Include(b => b.Customer)
+                .ThenInclude(c => c!.Address)
+                .Where(c => c.Id == id)
+                .FirstOrDefaultAsync();
+
+            return bill;
+        }
+
+        public void AddEntity<T>(T entity) where T : notnull
+        {
+            _context.Add(entity);
+        }
+
+        public async Task<IEnumerable<TimeBill>> GetTimeBillsForCustomer(int id)
+        {
+            return await _context.TimeBills
+                .Where(c => c.CustomerId != null && c.CustomerId == id)
+                .Include(b => b.Customer)
+                .Include(b => b.Employee)
+                .ToListAsync();
+        }
+
+        public async Task<TimeBill?> GetTimeBillsForCustomer(int id, int billId)
+        {
+            return await _context.TimeBills
+                .Where(c => c.CustomerId != null && c.CustomerId == id && c.Id == billId)
+                .Include(b => b.Customer)
+                .Include(b => b.Employee)
+                .FirstOrDefaultAsync();
+        }
+
+        public async Task<Employee?> GetEmployee(string? name)
+        {
+            return await _context.Employees
+                .Where(c => c.Email == name)
+                .FirstOrDefaultAsync();
+        }
     }
 }

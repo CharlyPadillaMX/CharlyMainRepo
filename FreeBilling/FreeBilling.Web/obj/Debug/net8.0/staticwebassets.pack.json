@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\index.html",
-      "PackagePath": "staticwebassets\\index.html"
-    },
-    {
       "Id": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\wwwroot\\site.css",
       "PackagePath": "staticwebassets\\site.css"
     },

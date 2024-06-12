@@ -4,6 +4,6 @@ namespace Sudoku.Models
 {
     public interface ISudokuRepository
     {
-        Task<string> GeneraSudokuAsync();
+        Task<string> GeneraSudoku();
     }
 }
