@@ -10,6 +10,8 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using FreeBilling.Web.Data.Entities;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("BillingDB") ?? throw new InvalidOperationException("Connection string 'BillingDB' not found.");
@@ -24,22 +26,34 @@ configurationBuilder.AddJsonFile("appsettings.json")
 
 builder.Services.AddDbContext<BillingContext>();
 
-builder.Services.AddIdentityApiEndpoints<TimeBillUser>(options =>
+builder.Services.AddDefaultIdentity<TimeBillUser>(options =>
 {
-	options.SignIn.RequireConfirmedAccount = false;
-	options.Password.RequiredLength = 8;
+    options.SignIn.RequireConfirmedAccount = false;
+    options.Password.RequiredLength = 8;
 })
-	.AddEntityFrameworkStores<BillingContext>();
+    .AddEntityFrameworkStores<BillingContext>();
 
 builder.Services.AddAuthentication()
-	.AddBearerToken();
+  .AddJwtBearer(cfg =>
+  {
+      cfg.TokenValidationParameters = new TokenValidationParameters()
+      {
+          ValidIssuer = builder.Configuration["Token:Issuer"],
+          ValidAudience = builder.Configuration["Token:Audience"],
+          IssuerSigningKey = new SymmetricSecurityKey(
+          Encoding.UTF8.GetBytes(builder.Configuration["Token:Key"]!))
+      };
+  });
 
-builder.Services.AddAuthorizationBuilder()
-	.AddPolicy("api", cfg =>
-	{
-		cfg.RequireAuthenticatedUser();
-		cfg.AddAuthenticationSchemes(IdentityConstants.BearerScheme);
-	});
+builder.Services.AddAuthorization(cfg =>
+{
+    cfg.AddPolicy("ApiPolicy", bldr =>
+    {
+        bldr.RequireAuthenticatedUser();
+
+        bldr.AddAuthenticationSchemes(JwtBearerDefaults.AuthenticationScheme);
+    });
+});
 
 builder.Services.AddScoped<IBillingRepository, BillingRepository>();
 
@@ -60,7 +74,7 @@ if (builder.Environment.IsDevelopment())
 }
 
 //Allows us to serve index.html as the default webpage
-app.UseDefaultFiles();
+//app.UseDefaultFiles();
 
 //Allows us to serve files from wwwroot
 app.UseStaticFiles();
@@ -80,10 +94,12 @@ app.MapRazorPages();
 //});
 
 TimeBillsApi.Register(app);
+AuthApi.Register(app);
+EmployeesApi.Register(app);
 
 app.MapControllers();
 
-app.MapGroup("api/auth")
-	.MapIdentityApi<TimeBillUser>();
+//No route was found, go to the vue app
+app.MapFallbackToPage("/customerBilling");
 
 app.Run();

@@ -558,7 +558,7 @@ label {
   font-weight: 700;
 }
 
-input[type=text], input[type=email], input[type=password], textarea, select {
+input[type=text], input[type=email], input[type=password], input[type=number], input[type=date], input[type=datetime], textarea, select {
   width: 100%;
   border-radius: 0.25rem;
   border-width: 2px;
@@ -623,6 +623,10 @@ button:hover {
   margin-bottom: 0.75rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .flex {
   display: flex;
 }
@@ -647,6 +651,10 @@ button:hover {
   width: 100%;
 }
 
+.justify-end {
+  justify-content: flex-end;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -669,6 +677,11 @@ button:hover {
   background-color: rgb(30 58 138 / var(--tw-bg-opacity));
 }
 
+.bg-gray-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(209 213 219 / var(--tw-bg-opacity));
+}
+
 .bg-gray-400 {
   --tw-bg-opacity: 1;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
@@ -679,14 +692,14 @@ button:hover {
   background-color: rgb(22 163 74 / var(--tw-bg-opacity));
 }
 
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
 .bg-green-700 {
   --tw-bg-opacity: 1;
   background-color: rgb(21 128 61 / var(--tw-bg-opacity));
+}
+
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
 .p-2 {
@@ -713,6 +726,11 @@ button:hover {
 .text-blue-300 {
   --tw-text-opacity: 1;
   color: rgb(147 197 253 / var(--tw-text-opacity));
+}
+
+.text-blue-900 {
+  --tw-text-opacity: 1;
+  color: rgb(30 58 138 / var(--tw-text-opacity));
 }
 
 .text-white {

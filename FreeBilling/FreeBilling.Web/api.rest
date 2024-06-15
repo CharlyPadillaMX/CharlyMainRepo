@@ -1,5 +1,5 @@
 GET http://localhost:8888/api/customers
-Authorization: Bearer CfDJ8GZV-3Ghk6BDjcYpoRwcMjNImwIY36p35cciAzINqzuDVFYGjSIxCRgnbAIORhsehgTOgJSjIKF3_NRH8_dbFpNQHvX-qiyyKk1ezoTBoqkD2o_Z1FK01uYYKxDkB9svCNt1pI4yGMX1HBwQeKt-0vL0mNva28Azj2Wmqmf2cjI_A29UJAgMUfGL6ohscDHvqXxGgV9lvHoPxEsTg1XuvTEF2ktd4cm8o7b8cldI-XlTtAlChKd4INoaETwdOmtpJRPry6bglbTNW0ewuJxarfV6sWNN6f-IRV7uEEBEvfDU9CKSOyY5bk6vzluSpt2JGxDzfrWL4Ec3i79AV3WC9ASV_kdfeXcRCeKmCKjcuRRlTFpLOfACPw3mCfz4F-z_ZP1N7fBK5Tr-CiSc02zTFEeBDmYHok5YTSAnUPg5HGe_uYptnRKPiNqezAOjtj_CoGnFBCMAFbIIq__oyz1EfrnCOs56DBjqcAngqdUXg5784MLiQZmo5ipy9QT0ub0OHVCkDUEYa28ENbJYvsW9Ckkvppv1FVjYVSLX-7Jz8NDNFMIJMOWlyXOqNXefKaOhZ2RAChIYfjzl2r3mOehie8ea4hrqJssPQ2mxcF-vQAJhmtBDXQV2DC8QBwouXXqzWX08iNScg2nodz7xgGywi4xX3OgalEIlTC630ngr0pzZYP8BCRDPrKJgL5LZ3qWpDQ
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJibGFibGFAamFqYWphLmNvbSIsImp0aSI6IjAzNTZiYTkzLWNkYjctNGNjNS05NGEyLTExNjI4NmUzYmFjZiIsInVuaXF1ZV9uYW1lIjoiYmxhYmxhQGphamFqYS5jb20iLCJleHAiOjE3MTg0MTEzODYsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OCJ9._xwZpdC6OUikzUpsMW43MsyQPFqoLQqueN0Rz6rY1jk
 
 ###
 
@@ -18,12 +18,12 @@ Authorization: Bearer CfDJ8GZV-3Ghk6BDjcYpoRwcMjP8IuR2JVScWLF2vPvcRUmqzP0Hs6dgBK
 
 POST http://localhost:8888/api/timebills
 Content-Type: application/json
-Authorization: Bearer CfDJ8GZV-3Ghk6BDjcYpoRwcMjP8IuR2JVScWLF2vPvcRUmqzP0Hs6dgBKWOiXARXN86IUibWvZylO9bUiiNwRYzbIjuPNkJZ7F6oKD09YtJELriIZe-em09dwQirF08iXXayjz-LJJXTBcgyCynJ5pngsqvjyvKIfJjkvfgdStAHUunmWAO6SQemBxkVnA-kTGU88Mtvh_nuWhAb4uMcPGjRAK1XVit1O6RC5nEDHfOC2Wo4TeLE11CMBqxqktvh4fTe5tMjnu5g2JswQP5VAtu_344r8QqofUvKz6-mmivdIPthTM4e_JNO1H58afdblT5Gpy_vMqhSB6EMav9RPNt7GXzcvhtXF1ahjzG5CZYM3R7M-UArdBFVAbDJUz9cXgqddaaxEekjR4pUEahLWKFMj6DwW4N79WOO59xDS0BmCufuceNNY-pISycR-jAZ1JrnGtt-fYYIWXHo7ZkDL-TzLO7ABBL1ulMXUNnL3nUpWddw48boJZ7NgjFhPSD3RF-5gu6gMwLhvKV_OVyUN_iNTZS6IQsfzhvLbZ-1Otb5QVJkoEwl1-Zmn60WvIfZkITqpOn2fHRTA6Um_81WZkYLzPe-n8VZMcznQFtnuT4BzuKz6JVQhqfLu-dfyKu6zUr9E3NLQXiXI7XsdQUtBAKyfnqWelN1doHWZdTaMKg7UqrMGehQcunTeneioDVjfqLjw
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJibGFibGFAamFqYWphLmNvbSIsImp0aSI6IjI0ZDc4NDEyLWVmYmEtNDE0Ni05MTBlLTE0ZDU0MWI1Njc1NiIsInVuaXF1ZV9uYW1lIjoiYmxhYmxhQGphamFqYS5jb20iLCJleHAiOjE3MTg0MTM5MTgsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OCJ9.O8j1eaFSJtHupJrurMrrxchbAIi2-bMCSm6zfvaeSIo
 {
-  "hoursWorked": 3.0,
+  "hoursWorked": 3.2,
   "Rate": 100.00,
   "date": "2023-06-11",
-  "work": "I did a thing...",
+  "work": "I did another thing...",
   "customerId": 1,
   "employeeId": 1
 }
@@ -38,9 +38,14 @@ GET http://localhost:8888/api/customers/1/timebills/8
 
 ###
 
-POST http://localhost:8888/api/auth/login
+POST http://localhost:8888/api/auth/token
 Content-Type: application/json
 {
-  "email": "blabla@jajaja.com",
+  "username": "blabla@jajaja.com",
   "password": "Carlitos_01"
 }
+
+###
+
+GET http://localhost:8888/api/customersemployees
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJibGFibGFAamFqYWphLmNvbSIsImp0aSI6IjNkNDU2ZjMzLTE1YjMtNDc2ZS1hODk4LThjZDg0ZWU2ZGNmMCIsInVuaXF1ZV9uYW1lIjoiYmxhYmxhQGphamFqYS5jb20iLCJleHAiOjE3MTg0MDk2ODgsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OCJ9.qIQYTFoVv679L41ule_Xo7N7PS3rw9nn0SuNBCIkCFE

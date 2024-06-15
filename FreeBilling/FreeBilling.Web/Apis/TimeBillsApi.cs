@@ -17,11 +17,11 @@ namespace FreeBilling.Web.Apis
 
             group.MapGet("{id:int}", GetTimeBill)
                 .WithName("GetTimeBill")
-                .RequireAuthorization("api");
+                .RequireAuthorization("ApiPolicy");
 
             group.MapPost("", PostTimeBill)
                 .AddEndpointFilter<ValidateEndpointFilter<TimeBillModel>>()
-                .RequireAuthorization("api");
+                .RequireAuthorization("ApiPolicy");
         }
 
         public static async Task<IResult> GetTimeBill(IBillingRepository repository, int id)
