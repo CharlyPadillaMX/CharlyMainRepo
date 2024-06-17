@@ -7,8 +7,16 @@
 *@
 @section header{
     <base href="/customerBilling" />
+    <environment include="Production">
+        <link href="~/app/assets/index-*.css" rel="stylesheet" />
+    </environment>
 }
 @section scripts{
-    <script type="module" src="http://localhost:5173/src/main.js"></script>
+    <environment exclude="Production">
+        <script type="module" src="http://localhost:5173/src/main.js"></script>
+    </environment>
+    <environment include="Production">
+        <script src=" ~ /app/assets/index-*.js"></script>">
+    </environment>
 }
 <div id="app"></div>

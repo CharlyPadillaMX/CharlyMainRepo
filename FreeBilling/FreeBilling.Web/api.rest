@@ -30,7 +30,8 @@ Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJibGFibGFAa
 
 ###
 
-GET http://localhost:8888/api/customers/1/timebills
+GET http://localhost:8888/api/customers/2/timebills
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJibGFibGFAamFqYWphLmNvbSIsImp0aSI6ImJjNzFlYTU2LWU4NjUtNDhhMi1iNmJlLTcyNjg2ODI4OWVhZSIsInVuaXF1ZV9uYW1lIjoiYmxhYmxhQGphamFqYS5jb20iLCJleHAiOjE3MTg2NDY4MDQsImlzcyI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OCIsImF1ZCI6Imh0dHA6Ly9sb2NhbGhvc3Q6ODg4OCJ9.NdQCv7aZAlyJJ1fx00JkGdJVp-wHRbsZBl6HDni1Bvo
 
 ###
 

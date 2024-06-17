@@ -1,50 +1,21 @@
 <script setup>
-    import { computed, onMounted, reactive, ref } from "vue";
+    import { computed, onMounted, reactive, ref, watch } from "vue";
     import { formatMoney } from "@/formatters";
     import axios from "axios";
     import WaitCursor from "@/components/WaitCursor.vue";
+    import state from "@/state";
 
     const name = ref("Carlos");
 
     const nancy = ref("Nancy Smith");
 
     const isBusy = ref(false);
-
-    const bills = reactive([
-        //{
-        //  "hoursWorked": 3.0,
-        //  "Rate": 100.00,
-        //  "date": "2023-06-11",
-        //  "work": "I did a thing...",
-        //  "customerId": 1,
-        //  "employeeId": 1
-        //},
-        //{
-        //  "hoursWorked": 5.0,
-        //  "Rate": 150.00,
-        //  "date": "2023-06-12",
-        //  "work": "I did another thing...",
-        //  "customerId": 1,
-        //  "employeeId": 1
-        //},
-        //{
-        //  "hoursWorked": 8.0,
-        //  "Rate": 250.00,
-        //  "date": "2023-06-13",
-        //  "work": "I finish a thing...",
-        //  "customerId": 1,
-        //  "employeeId": 1
-        //}
-    ]);
+    const customerId = ref(0);
 
     onMounted(async () => {
         try {
             isBusy.value = true;
-            const result = await axios("http://localhost:8888/api/customers/1/timebills");
-
-            if (result.status === 200) {
-                bills.splice(0, bills.length, ...result.data);
-            }
+            await state.loadCustomers();            
         }
         catch {
             console.log("Failed");
@@ -55,8 +26,20 @@
 
     const total = computed(() => {
         //return bills.length;
-        return bills.map(b => b.billingRate * b.hours)
+        return state.timeBills.map(b => b.billingRate * b.hours)
                     .reduce((b, t) => t + b, 0);
+    });
+
+    watch(customerId, async () => {
+        try {
+            isBusy.value = true;
+            await state.loadTimeBills(customerId.value);
+
+        } catch (e) {
+                console.log(e);
+        } finally {
+            setTimeout(() => isBusy.value = false, 1000);
+        }
     });
 
     function changeMe () {
@@ -66,7 +49,7 @@
     }
 
     function newItem() {
-        bills.push({
+        state.timeBills.push({
             "customerId": 1,
             "employeeId": 1,
             "hoursWorked": 5.0,
@@ -75,7 +58,7 @@
             "date": "2023-06-14"
         });
 
-        console.log(bills.length);
+        console.log(state.timeBills.length);
     }
 </script>
 
@@ -91,19 +74,29 @@
         <button class="btn" @click="changeMe">Change Me</button>
         <img src="http://localhost:8888/imgs/nancy.jpg" :alt="nancy" :title="nancy.toUpperCase()" />
         <button class="btn" @click="newItem">New Item</button>-->
-        <table>
+        <div>
+            <label>Customers:</label>
+            <select class="w-96 mx-2" v-model="customerId">
+                <option v-for="c in state.customers" :value="c.id">{{ c.companyName }}</option>
+            </select>
+        </div>
+        <table class="w-full">
             <thead>
-                <tr>
+                <tr class="text-bold bg-blue-900 text-white">
                     <td>Hours</td>
                     <td>Date</td>
                     <td>Description</td>
+                    <td>Rate</td>
+                    <td>Employee</td>
                 </tr>
             </thead>
             <tbody>
-                <tr v-for="b in bills">
+                <tr v-for="b in state.timeBills">
                     <td>{{ b.hours }}</td>
                     <td>{{ b.date }}</td>
                     <td>{{ b.workPerformed }}</td>
+                    <td>{{ b.billingRate }}</td>
+                    <td>{{ b.employee.name }}</td>
                 </tr>
             </tbody>
         </table>
