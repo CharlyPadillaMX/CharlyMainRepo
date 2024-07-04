@@ -1,7 +1,20 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\data\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\data\\billingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\data\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\data\\ibillingrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|d:\\repo\\charlymainrepo\\freebilling\\freebilling.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{4C3FB72A-1DEA-4A72-9FA5-1F5867394BD2}|FreeBilling.Web\\FreeBilling.Web.csproj|solutionrelative:freebilling.web\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 302,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,6 +39,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IBillingRepository.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\IBillingRepository.cs",
+              "RelativeDocumentMoniker": "FreeBilling.Web\\Data\\IBillingRepository.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\IBillingRepository.cs",
+              "RelativeToolTip": "FreeBilling.Web\\Data\\IBillingRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T18:06:06.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BillingRepository.cs",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\BillingRepository.cs",
+              "RelativeDocumentMoniker": "FreeBilling.Web\\Data\\BillingRepository.cs",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Data\\BillingRepository.cs",
+              "RelativeToolTip": "FreeBilling.Web\\Data\\BillingRepository.cs",
+              "ViewState": "AQIAAFoAAAAAAAAAAAAswE4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-26T17:32:26.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "FreeBilling.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Repo\\CharlyMainRepo\\FreeBilling\\FreeBilling.Web\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "FreeBilling.Web\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACoAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-06-20T20:48:09.237Z",
+              "EditorCaption": ""
             }
           ]
         }
